@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import dao.DaoUsuario;
+import dao.UsuarioDAO;
 import entidades.Usuario;
 import service.RelatorioService;
 
@@ -27,7 +27,7 @@ public class ServletDownloadFile extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	private RelatorioService relatorioService = new RelatorioService();
-	private DaoUsuario daoUsuario = new DaoUsuario();
+	private UsuarioDAO daoUsuario = new UsuarioDAO();
 
 	public ServletDownloadFile() {
 		super();

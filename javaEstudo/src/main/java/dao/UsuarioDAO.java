@@ -9,11 +9,11 @@ import java.util.ArrayList;
 import connection.ConnectionDataBase;
 import entidades.Usuario;
 
-public class DaoUsuario {
+public class UsuarioDAO {
 
 	private static Connection connection;
 
-	public DaoUsuario() {
+	public UsuarioDAO() {
 		connection = ConnectionDataBase.getConnection();
 	}
 

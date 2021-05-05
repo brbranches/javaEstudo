@@ -47,14 +47,17 @@
 		</tr>
 
 
-
 		<tr>
-			<td><a href="pages/ServletAutenticacao?deslogar=true">Deslogar</a></td>
+			<td><a href="pages/datas.jsp">Calculando datas</a></td>
+		</tr>
+		
+		<tr>
+			<td><a href="pages/calendar.jsp">Calendario</a></td>
 		</tr>
 
 
 		<tr>
-			<td><a href="pages/datas.jsp">Calculando datas</a></td>
+			<td><a href="pages/ServletAutenticacao?deslogar=true">Deslogar</a></td>
 		</tr>
 
 

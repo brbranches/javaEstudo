@@ -10,14 +10,14 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import dao.DaoUsuario;
+import dao.UsuarioDAO;
 import entidades.Usuario;
 
 @WebServlet("/pages/carregarDadosDataTable")
 public class carregarDadosDataTable extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	private DaoUsuario daoUsuario = new DaoUsuario();
+	private UsuarioDAO daoUsuario = new UsuarioDAO();
 
 	public carregarDadosDataTable() {
 		super();
